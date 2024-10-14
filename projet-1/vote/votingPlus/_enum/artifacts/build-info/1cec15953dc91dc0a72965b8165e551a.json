@@ -1,0 +1,103 @@
+{
+	"id": "1cec15953dc91dc0a72965b8165e551a",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.28",
+	"solcLongVersion": "0.8.28+commit.7893614a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/vote/votingPlus/_enum/EVotingTypes.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.28;\n\nenum EVotingTypes {\n    OFFICIAL, // 0\n    SPONTANEAOUS, // 1\n    VISITOR // 2\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/vote/votingPlus/_enum/EVotingTypes.sol": {
+				"ast": {
+					"absolutePath": "contracts/vote/votingPlus/_enum/EVotingTypes.sol",
+					"exportedSymbols": {
+						"EVotingTypes": [
+							5
+						]
+					},
+					"id": 6,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".28"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"canonicalName": "EVotingTypes",
+							"id": 5,
+							"members": [
+								{
+									"id": 2,
+									"name": "OFFICIAL",
+									"nameLocation": "81:8:0",
+									"nodeType": "EnumValue",
+									"src": "81:8:0"
+								},
+								{
+									"id": 3,
+									"name": "SPONTANEAOUS",
+									"nameLocation": "100:12:0",
+									"nodeType": "EnumValue",
+									"src": "100:12:0"
+								},
+								{
+									"id": 4,
+									"name": "VISITOR",
+									"nameLocation": "123:7:0",
+									"nodeType": "EnumValue",
+									"src": "123:7:0"
+								}
+							],
+							"name": "EVotingTypes",
+							"nameLocation": "62:12:0",
+							"nodeType": "EnumDefinition",
+							"src": "57:80:0"
+						}
+					],
+					"src": "32:106:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

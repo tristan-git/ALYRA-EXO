@@ -1,0 +1,103 @@
+{
+	"id": "7457ff0821db8b14ffabd29f3d16e692",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.28",
+	"solcLongVersion": "0.8.28+commit.7893614a",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/vote/votingPlus/_enum/EMemberTeams.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.28;\n\nenum EMemberTeams {\n    MARKETING, // 0\n    DEVELOPPER, // 1\n    OTHER // 2\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/vote/votingPlus/_enum/EMemberTeams.sol": {
+				"ast": {
+					"absolutePath": "contracts/vote/votingPlus/_enum/EMemberTeams.sol",
+					"exportedSymbols": {
+						"EMemberTeams": [
+							5
+						]
+					},
+					"id": 6,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"0.8",
+								".28"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"canonicalName": "EMemberTeams",
+							"id": 5,
+							"members": [
+								{
+									"id": 2,
+									"name": "MARKETING",
+									"nameLocation": "81:9:0",
+									"nodeType": "EnumValue",
+									"src": "81:9:0"
+								},
+								{
+									"id": 3,
+									"name": "DEVELOPPER",
+									"nameLocation": "101:10:0",
+									"nodeType": "EnumValue",
+									"src": "101:10:0"
+								},
+								{
+									"id": 4,
+									"name": "OTHER",
+									"nameLocation": "122:5:0",
+									"nodeType": "EnumValue",
+									"src": "122:5:0"
+								}
+							],
+							"name": "EMemberTeams",
+							"nameLocation": "62:12:0",
+							"nodeType": "EnumDefinition",
+							"src": "57:77:0"
+						}
+					],
+					"src": "32:103:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

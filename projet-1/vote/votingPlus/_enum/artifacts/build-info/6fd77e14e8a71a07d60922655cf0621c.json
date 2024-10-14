@@ -1,0 +1,132 @@
+{
+	"id": "6fd77e14e8a71a07d60922655cf0621c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.27",
+	"solcLongVersion": "0.8.27+commit.40a35a09",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EVotingStatus.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.27;\n\nenum EVotingStatus {\n    OPEN_PROPOSAL, // 0\n    CLOSE_PROPOSAL, // 1\n    OPEN_VOTING, // 2\n    CLOSE_VOTING, // 3\n    DRAFT, // 4\n    PAUSE, // 5\n    CANCEL // 6\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EVotingStatus.sol": {
+				"ast": {
+					"absolutePath": "contracts/vote/VotingManager/_enum/EVotingStatus.sol",
+					"exportedSymbols": {
+						"EVotingStatus": [
+							9
+						]
+					},
+					"id": 10,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".27"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						},
+						{
+							"canonicalName": "EVotingStatus",
+							"id": 9,
+							"members": [
+								{
+									"id": 2,
+									"name": "OPEN_PROPOSAL",
+									"nameLocation": "83:13:0",
+									"nodeType": "EnumValue",
+									"src": "83:13:0"
+								},
+								{
+									"id": 3,
+									"name": "CLOSE_PROPOSAL",
+									"nameLocation": "107:14:0",
+									"nodeType": "EnumValue",
+									"src": "107:14:0"
+								},
+								{
+									"id": 4,
+									"name": "OPEN_VOTING",
+									"nameLocation": "132:11:0",
+									"nodeType": "EnumValue",
+									"src": "132:11:0"
+								},
+								{
+									"id": 5,
+									"name": "CLOSE_VOTING",
+									"nameLocation": "154:12:0",
+									"nodeType": "EnumValue",
+									"src": "154:12:0"
+								},
+								{
+									"id": 6,
+									"name": "DRAFT",
+									"nameLocation": "177:5:0",
+									"nodeType": "EnumValue",
+									"src": "177:5:0"
+								},
+								{
+									"id": 7,
+									"name": "PAUSE",
+									"nameLocation": "193:5:0",
+									"nodeType": "EnumValue",
+									"src": "193:5:0"
+								},
+								{
+									"id": 8,
+									"name": "CANCEL",
+									"nameLocation": "209:6:0",
+									"nodeType": "EnumValue",
+									"src": "209:6:0"
+								}
+							],
+							"name": "EVotingStatus",
+							"nameLocation": "63:13:0",
+							"nodeType": "EnumDefinition",
+							"src": "58:164:0"
+						}
+					],
+					"src": "32:191:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

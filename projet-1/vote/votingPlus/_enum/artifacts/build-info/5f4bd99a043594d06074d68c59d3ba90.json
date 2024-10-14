@@ -1,0 +1,111 @@
+{
+	"id": "5f4bd99a043594d06074d68c59d3ba90",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.27",
+	"solcLongVersion": "0.8.27+commit.40a35a09",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EMemberRoles.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.27;\n\nenum EMemberRoles {\n    DEFAULT_ADMIN_ROLE, // 0\n    ADMIN_ROLE, // 1\n    VOTER_ROLE, // 2\n    VISITOR_ROLE // 3\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EMemberRoles.sol": {
+				"ast": {
+					"absolutePath": "contracts/vote/VotingManager/_enum/EMemberRoles.sol",
+					"exportedSymbols": {
+						"EMemberRoles": [
+							6
+						]
+					},
+					"id": 7,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".27"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						},
+						{
+							"canonicalName": "EMemberRoles",
+							"id": 6,
+							"members": [
+								{
+									"id": 2,
+									"name": "DEFAULT_ADMIN_ROLE",
+									"nameLocation": "82:18:0",
+									"nodeType": "EnumValue",
+									"src": "82:18:0"
+								},
+								{
+									"id": 3,
+									"name": "ADMIN_ROLE",
+									"nameLocation": "111:10:0",
+									"nodeType": "EnumValue",
+									"src": "111:10:0"
+								},
+								{
+									"id": 4,
+									"name": "VOTER_ROLE",
+									"nameLocation": "132:10:0",
+									"nodeType": "EnumValue",
+									"src": "132:10:0"
+								},
+								{
+									"id": 5,
+									"name": "VISITOR_ROLE",
+									"nameLocation": "153:12:0",
+									"nodeType": "EnumValue",
+									"src": "153:12:0"
+								}
+							],
+							"name": "EMemberRoles",
+							"nameLocation": "63:12:0",
+							"nodeType": "EnumDefinition",
+							"src": "58:114:0"
+						}
+					],
+					"src": "32:141:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

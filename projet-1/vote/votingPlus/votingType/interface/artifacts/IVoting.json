@@ -1,0 +1,243 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"closeRegistration(address)": "15fc46eb",
+			"closeVotes(address)": "195fc6ea",
+			"countVotes(address)": "5dc43899",
+			"getVoterVote(address,address)": "90247d5e",
+			"getWinner(address)": "b90c899d",
+			"openRegistration(address)": "edc41b5a",
+			"openVotes(address)": "60546356",
+			"setProposal(address,string)": "57fccac1",
+			"setVote(address,uint256)": "6e2bbc9f",
+			"setVoters(address,address[])": "88e03b0d"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "closeRegistration",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "closeVotes",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "countVotes",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "_voter",
+					"type": "address"
+				}
+			],
+			"name": "getVoterVote",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "getWinner",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "resWinningHash",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256",
+					"name": "resWinningId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "string",
+					"name": "resDescription",
+					"type": "string"
+				},
+				{
+					"internalType": "uint256",
+					"name": "resVoteCount",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "openRegistration",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				}
+			],
+			"name": "openVotes",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				},
+				{
+					"internalType": "string",
+					"name": "_description",
+					"type": "string"
+				}
+			],
+			"name": "setProposal",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "_proposalId",
+					"type": "uint256"
+				}
+			],
+			"name": "setVote",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_caller",
+					"type": "address"
+				},
+				{
+					"internalType": "address[]",
+					"name": "_voters",
+					"type": "address[]"
+				}
+			],
+			"name": "setVoters",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

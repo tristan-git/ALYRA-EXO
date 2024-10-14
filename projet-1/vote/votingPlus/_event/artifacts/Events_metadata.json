@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "ProposalRegistered",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "proposalId",
+						"type": "uint256"
+					}
+				],
+				"name": "Voted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "voterAddress",
+						"type": "address"
+					}
+				],
+				"name": "VoterRegistered",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum EWorkflowStatus",
+						"name": "previousStatus",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum EWorkflowStatus",
+						"name": "newStatus",
+						"type": "uint8"
+					}
+				],
+				"name": "WorkflowStatusChange",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/vote/votingPlus/_event/Events.sol": "Events"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/vote/votingPlus/_enum/EVotingStatus.sol": {
+			"keccak256": "0x7334543be05f6bd95ba3e75682abc720c33095201eb661a1c65ff0d3920bc380",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a65ef4be58fb05d3db502d621981568d383dd5b092ee4ac55c74a630f947bf3d",
+				"dweb:/ipfs/QmS5K2fT5m8uapyZuee2o7BbtWXX1KupB3RVSbzdGQCfKg"
+			]
+		},
+		"contracts/vote/votingPlus/_enum/EWorkflowStatus.sol": {
+			"keccak256": "0xb0255daed1ff845e8c99c3f34c507470e9766d44d0e377f7b90e9f24cc83e740",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30e37fb41d33f47286ffbb97655595d476e31aaf78d7bb13913fe2695ab8621b",
+				"dweb:/ipfs/QmdkvR3hoztLoA9AasVaApnDcLZyfYAM1nmNVfamreUMHu"
+			]
+		},
+		"contracts/vote/votingPlus/_event/Events.sol": {
+			"keccak256": "0x8e107f3def6a4b87196fd88c96ed79ed9f036b46d375dc11fa3fdc29e4abbc63",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12d6ff2f3999f35fbeadfffe49d2c4e3daf2357daa62302064c5ade519a30f7c",
+				"dweb:/ipfs/QmNnYbCYYPq7utydKXzFpZm1R8x5xjSnHTB1YnUbqmEHNi"
+			]
+		}
+	},
+	"version": 1
+}

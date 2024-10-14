@@ -1,0 +1,125 @@
+{
+	"id": "7a1ed9310ce076801df00e1eff27a573",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.27",
+	"solcLongVersion": "0.8.27+commit.40a35a09",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EWorkflowStatus.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.27;\n\n  enum EWorkflowStatus {\n        RegisteringVoters, // 0\n        ProposalsRegistrationStarted, // 1\n        ProposalsRegistrationEnded, // 2\n        VotingSessionStarted, // 3\n        VotingSessionEnded, // 4\n        VotesTallied // 5\n    }\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/vote/VotingManager/_enum/EWorkflowStatus.sol": {
+				"ast": {
+					"absolutePath": "contracts/vote/VotingManager/_enum/EWorkflowStatus.sol",
+					"exportedSymbols": {
+						"EWorkflowStatus": [
+							8
+						]
+					},
+					"id": 9,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".27"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:24:0"
+						},
+						{
+							"canonicalName": "EWorkflowStatus",
+							"id": 8,
+							"members": [
+								{
+									"id": 2,
+									"name": "RegisteringVoters",
+									"nameLocation": "91:17:0",
+									"nodeType": "EnumValue",
+									"src": "91:17:0"
+								},
+								{
+									"id": 3,
+									"name": "ProposalsRegistrationStarted",
+									"nameLocation": "123:28:0",
+									"nodeType": "EnumValue",
+									"src": "123:28:0"
+								},
+								{
+									"id": 4,
+									"name": "ProposalsRegistrationEnded",
+									"nameLocation": "166:26:0",
+									"nodeType": "EnumValue",
+									"src": "166:26:0"
+								},
+								{
+									"id": 5,
+									"name": "VotingSessionStarted",
+									"nameLocation": "207:20:0",
+									"nodeType": "EnumValue",
+									"src": "207:20:0"
+								},
+								{
+									"id": 6,
+									"name": "VotingSessionEnded",
+									"nameLocation": "242:18:0",
+									"nodeType": "EnumValue",
+									"src": "242:18:0"
+								},
+								{
+									"id": 7,
+									"name": "VotesTallied",
+									"nameLocation": "275:12:0",
+									"nodeType": "EnumValue",
+									"src": "275:12:0"
+								}
+							],
+							"name": "EWorkflowStatus",
+							"nameLocation": "65:15:0",
+							"nodeType": "EnumDefinition",
+							"src": "60:238:0"
+						}
+					],
+					"src": "32:267:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
